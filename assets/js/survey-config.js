@@ -36,8 +36,9 @@ const SURVEY = {
   "intro": [
     "Cette enquête s'intéresse à la manière dont les savoirs écologiques locaux sur la mer — cycles des espèces, saisons de pêche, noms de lieux, engins traditionnels, dina et fady, sites sacrés — sont recueillis, conservés et utilisés dans la gestion des aires marines à Madagascar, ainsi qu'aux dispositifs de suivi écologique en place.",
     "Ce questionnaire s'adresse aux gestionnaires d'aires marines protégées (AMP), de LMMA et aux structures qui les appuient. Les volets thématiques (mangroves, herbiers, récifs, pêche) ne s'affichent que si votre structure est concernée.",
-    "Une réponse par aire gérée ou appuyée. Vos réponses sont enregistrées automatiquement sur cet appareil : vous pouvez interrompre la saisie et la reprendre plus tard depuis le même navigateur."
+    "Une réponse par aire gérée ou appuyée."
   ],
+   "draftNote": "Vos réponses sont enregistrées automatiquement sur cet appareil : vous pouvez interrompre la saisie et la reprendre plus tard depuis le même navigateur.",
   "privacy": "Les informations recueillies servent uniquement à cette étude. Les résultats seront présentés de manière agrégée ; vous ne serez cité(e) nommément qu'avec votre accord. Les documents transmis ne seront pas diffusés sans l'autorisation de votre structure.",
   "consentLabel": "J'accepte de participer à cette enquête et que les informations fournies soient utilisées dans le cadre de cette étude, selon les conditions décrites ci-dessus.",
   "heroPhoto": "pirogues-voile",
@@ -55,7 +56,7 @@ const SURVEY = {
     "key": "pirogues-voile",
     "src": "assets/img/photos/pirogues-voile.jpg",
     "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Fishing_Pirogues_%2828238012392%29.jpg/1280px-Fishing_Pirogues_%2828238012392%29.jpg",
-    "caption": "Pirogues de pêche à voile, Madagascar",
+    "caption": "",
     "credit": "Rod Waddington",
     "license": "CC BY-SA 2.0",
     "page": "https://commons.wikimedia.org/wiki/File:Fishing_Pirogues_%2828238012392%29.jpg"
@@ -64,7 +65,7 @@ const SURVEY = {
     "key": "vezo-pirogue",
     "src": "assets/img/photos/vezo-pirogue.jpg",
     "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Vezo_%C3%A0_la_p%C3%AAche.JPG/1280px-Vezo_%C3%A0_la_p%C3%AAche.JPG",
-    "caption": "Pêcheurs vezo sur une pirogue à balancier",
+    "caption": "",
     "credit": "Boosha Afrikaf",
     "license": "CC BY-SA 4.0",
     "page": "https://commons.wikimedia.org/wiki/File:Vezo_%C3%A0_la_p%C3%AAche.JPG"
@@ -73,7 +74,7 @@ const SURVEY = {
     "key": "femmes-filet",
     "src": "assets/img/photos/femmes-filet.jpg",
     "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Women_Net_Fishing%2C_Madagascar_%2822075000623%29.jpg/1280px-Women_Net_Fishing%2C_Madagascar_%2822075000623%29.jpg",
-    "caption": "Pêche au filet par des femmes, Madagascar",
+    "caption": "",
     "credit": "Rod Waddington",
     "license": "CC BY-SA 2.0",
     "page": "https://commons.wikimedia.org/wiki/File:Women_Net_Fishing%2C_Madagascar_%2822075000623%29.jpg"
@@ -82,7 +83,7 @@ const SURVEY = {
     "key": "estran-belo",
     "src": "assets/img/photos/estran-belo.jpg",
     "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/P%C3%AAche_Belo_sur_mer%2C_Madagascar.jpg/1280px-P%C3%AAche_Belo_sur_mer%2C_Madagascar.jpg",
-    "caption": "Pêche à pied sur l'estran, Belo-sur-Mer",
+    "caption": "",
     "credit": "Cactus0625",
     "license": "CC BY-SA 4.0",
     "page": "https://commons.wikimedia.org/wiki/File:P%C3%AAche_Belo_sur_mer%2C_Madagascar.jpg"
@@ -91,7 +92,7 @@ const SURVEY = {
     "key": "pirogue",
     "src": "assets/img/photos/pirogue.jpg",
     "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Fishing_Pirogue%2C_Madagascar_%2827644458115%29.jpg/1280px-Fishing_Pirogue%2C_Madagascar_%2827644458115%29.jpg",
-    "caption": "Pirogue de pêche, Madagascar",
+    "caption": "",
     "credit": "Rod Waddington",
     "license": "CC BY-SA 2.0",
     "page": "https://commons.wikimedia.org/wiki/File:Fishing_Pirogue%2C_Madagascar_%2827644458115%29.jpg"
@@ -100,7 +101,7 @@ const SURVEY = {
     "key": "filets",
     "src": "assets/img/photos/filets.jpg",
     "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/P%C3%AAcheur_%28_pr%C3%A9paration_des_filets_%29.jpg/1280px-P%C3%AAcheur_%28_pr%C3%A9paration_des_filets_%29.jpg",
-    "caption": "Préparation des filets",
+    "caption": "",
     "credit": "Pascale Bireaud",
     "license": "CC BY-SA 4.0",
     "page": "https://commons.wikimedia.org/wiki/File:P%C3%AAcheur_%28_pr%C3%A9paration_des_filets_%29.jpg"
@@ -109,7 +110,7 @@ const SURVEY = {
     "key": "nasses",
     "src": "assets/img/photos/nasses.jpg",
     "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/Fish_Traps%2C_Madagascar_%28in_Explore%29_-_Flickr_-_Rod_Waddington.jpg/1280px-Fish_Traps%2C_Madagascar_%28in_Explore%29_-_Flickr_-_Rod_Waddington.jpg",
-    "caption": "Nasses de pêche traditionnelles, Madagascar",
+    "caption": "",
     "credit": "Rod Waddington",
     "license": "CC BY-SA 2.0",
     "page": "https://commons.wikimedia.org/wiki/File:Fish_Traps%2C_Madagascar_%28in_Explore%29_-_Flickr_-_Rod_Waddington.jpg"
@@ -118,7 +119,7 @@ const SURVEY = {
     "key": "retour-peche",
     "src": "assets/img/photos/retour-peche.jpg",
     "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Retour_de_la_p%C3%AAche.jpg/1280px-Retour_de_la_p%C3%AAche.jpg",
-    "caption": "Retour de pêche",
+    "caption": "",
     "credit": "Laure Borel",
     "license": "CC BY-SA 4.0",
     "page": "https://commons.wikimedia.org/wiki/File:Retour_de_la_p%C3%AAche.jpg"
@@ -127,7 +128,7 @@ const SURVEY = {
     "key": "estran-pirogues",
     "src": "assets/img/photos/estran-pirogues.jpg",
     "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Tous_partis.jpg/1280px-Tous_partis.jpg",
-    "caption": "Pirogues sur l'estran à marée basse",
+    "caption": "",
     "credit": "Pascale Bireaud",
     "license": "CC BY-SA 4.0",
     "page": "https://commons.wikimedia.org/wiki/File:Tous_partis.jpg"
@@ -136,7 +137,7 @@ const SURVEY = {
     "key": "senne-morondava",
     "src": "assets/img/photos/senne-morondava.jpg",
     "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Fishing_in_Morondava_2023_01.jpg/1280px-Fishing_in_Morondava_2023_01.jpg",
-    "caption": "Pêche à la senne de plage, Morondava",
+    "caption": "",
     "credit": "Vaido Otsar",
     "license": "CC BY-SA 4.0",
     "page": "https://commons.wikimedia.org/wiki/File:Fishing_in_Morondava_2023_01.jpg"
@@ -145,7 +146,7 @@ const SURVEY = {
     "key": "village-mangily",
     "src": "assets/img/photos/village-mangily.jpg",
     "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Vezo%2C_Mangily_15.JPG/1280px-Vezo%2C_Mangily_15.JPG",
-    "caption": "Village vezo, Mangily",
+    "caption": "",
     "credit": "Heinonlein",
     "license": "CC BY-SA 4.0",
     "page": "https://commons.wikimedia.org/wiki/File:Vezo%2C_Mangily_15.JPG"
@@ -154,7 +155,7 @@ const SURVEY = {
     "key": "mangrove-belo",
     "src": "assets/img/photos/mangrove-belo.jpg",
     "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Mangroves_%2C_Belo_sur_mer%2C_Madagascar.jpg/1280px-Mangroves_%2C_Belo_sur_mer%2C_Madagascar.jpg",
-    "caption": "Mangroves, Belo-sur-Mer",
+    "caption": "",
     "credit": "Cactus0625",
     "license": "CC BY-SA 4.0",
     "page": "https://commons.wikimedia.org/wiki/File:Mangroves_%2C_Belo_sur_mer%2C_Madagascar.jpg"
@@ -163,7 +164,7 @@ const SURVEY = {
     "key": "mangrove-andavadoaka",
     "src": "assets/img/photos/mangrove-andavadoaka.jpg",
     "remote": "https://upload.wikimedia.org/wikipedia/commons/6/6a/Andavadoaka_10.jpg",
-    "caption": "Racines de palétuviers, Andavadoaka",
+    "caption": "",
     "credit": "Dennis Tang",
     "license": "CC BY-SA 2.0",
     "page": "https://commons.wikimedia.org/wiki/File:Andavadoaka_10.jpg"
@@ -172,7 +173,7 @@ const SURVEY = {
     "key": "lagon-anakao",
     "src": "assets/img/photos/lagon-anakao.jpg",
     "remote": "https://upload.wikimedia.org/wikipedia/commons/8/8c/Anakao_South_of_Madagascar.jpg",
-    "caption": "Lagon d'Anakao",
+    "caption": "",
     "credit": "Marie Salichon",
     "license": "CC BY-SA 4.0",
     "page": "https://commons.wikimedia.org/wiki/File:Anakao_South_of_Madagascar.jpg"
@@ -181,7 +182,7 @@ const SURVEY = {
     "key": "recif-acropora",
     "src": "assets/img/photos/recif-acropora.jpg",
     "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/Coral_%28Acropora_clathrata%29%2C_Nosy_Iranja%2C_Madagascar%2C_2025-09-17%2C_DD_53.jpg/1280px-Coral_%28Acropora_clathrata%29%2C_Nosy_Iranja%2C_Madagascar%2C_2025-09-17%2C_DD_53.jpg",
-    "caption": "Corail Acropora clathrata, Nosy Iranja",
+    "caption": "",
     "credit": "Diego Delso",
     "license": "CC BY-SA 4.0",
     "page": "https://commons.wikimedia.org/wiki/File:Coral_%28Acropora_clathrata%29%2C_Nosy_Iranja%2C_Madagascar%2C_2025-09-17%2C_DD_53.jpg"
