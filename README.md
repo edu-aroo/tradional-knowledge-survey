@@ -1,5 +1,5 @@
 # Link to survey
-https://edu-aroo.github.io/tradional-knowledge-survey/
+https://edu-aroo.github.io/traditional-knowledge-survey/
 
 # Link to report
-https://edu-aroo.github.io/tradional-knowledge-survey/rapport
+https://edu-aroo.github.io/traditional-knowledge-survey/rapport
